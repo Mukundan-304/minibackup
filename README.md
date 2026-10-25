@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Sentinel Adaptive API Shield
 
 A local API protection demo with a FastAPI behavioral engine and a React dashboard. It combines per-client token buckets with rolling request history, EWMA rate estimates, behavioral risk scoring, and four policy states.
@@ -56,3 +57,6 @@ When `frontend\dist` exists, FastAPI serves the built dashboard at `http://127.0
 | `POST` | `/admin/reset` | Clear in-memory client and event state |
 
 State is stored in process memory and resets when the API restarts. The admin routes are unauthenticated for this localhost demo; do not expose the server to an untrusted network without adding authentication and access controls.
+=======
+# minibackup
+>>>>>>> bee6b6b4532ca7c0b9465ca3db69f5b22f7841e4
